@@ -20,8 +20,7 @@
 
 title: Ronnie Taylor
 email: hello@ronnietaylor.com
-# description: >- # this means to ignore newlines until "baseurl:"
-#   Real Human & Software Devloper
+description: "Real Human & Software Devloper"
 domain: ronnietaylor.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ronnietaylor.com" # the base hostname & protocol for your site, e.g. http://example.com
