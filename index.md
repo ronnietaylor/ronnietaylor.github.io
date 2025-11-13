@@ -1,5 +1,4 @@
 ---
 layout: default
 ---
-> Real Human & Software Devloper
-
+> Human‑Powered Programming
