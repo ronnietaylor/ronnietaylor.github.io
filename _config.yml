@@ -20,13 +20,22 @@
 
 title: Ronnie Taylor
 email: hello@ronnietaylor.com
-description: "Be Kind Even When It's Hard"
+description: "Senior Staff Engineer | Backend Systems & Platform Development"
 domain: ronnietaylor.github.io
 repository: ronnietaylor/ronnietaylor.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ronnietaylor.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  ronnietaylor
+baseurl: ""
+url: "https://ronnietaylor.com"
+github_username: ronnietaylor
+twitter_username: 
+linkedin_username: ronnietaylor-20b3236
 show_downloads: false
+
+# Social links for the site
+social:
+  name: Ronnie Taylor
+  links:
+    - https://github.com/ronnietaylor
+    - https://linkedin.com/in/ronnietaylor-20b3236
 
 # Build settings
 # theme: minima
