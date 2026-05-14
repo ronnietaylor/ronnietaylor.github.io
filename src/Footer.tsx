@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="space-y-1 text-center md:text-left">
             <span className="font-extrabold text-white text-sm">Ronnie</span>
-            <p className="mono text-[10px] text-[hsl(0,0%,42%)]">Linux & Full-Stack Developer</p>
+            <p className="mono text-[10px] text-[hsl(0,0%,42%)]">Full-Stack Developer</p>
           </div>
 
           <div className="flex items-center gap-4">
