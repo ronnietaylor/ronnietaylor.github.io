@@ -9,7 +9,7 @@ function App() {
         <div className="space-y-2">
           <h1 className="font-extrabold text-5xl md:text-7xl tracking-tight">Ronnie Taylor</h1>
           <p className="mono text-xs text-[hsl(142,72%,50%)]">
-            Engineering · Systems
+            AI First · Full-Stack Developer
           </p>
         </div>
 
