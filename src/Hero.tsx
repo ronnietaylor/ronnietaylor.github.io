@@ -25,9 +25,9 @@ export default function Hero() {
             className="font-extrabold tracking-tight leading-[0.92] text-transparent bg-gradient-to-r from-white to-[hsl(0,0%,70%)] bg-clip-text"
             style={{ fontSize: 'clamp(40px, 6.5vw, 72px)' }}
           >
-            Building infrastructure
+            Building apps
             <br />
-            & apps that actually scale.
+            & infrastructure that actually scale.
           </motion.h1>
 
           <motion.p
@@ -37,7 +37,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-sm leading-relaxed max-w-[440px] text-[hsl(0,0%,42%)]"
           >
-            Linux systems & full-stack developer specializing in Python, FastAPI, React, and persistent server environments. Optimized for modern Linux, high-throughput automation, and hardware-aware deployments.
+              AI-first developer helping clients cut weeks of manual work down to a click. Specializing in AI systems, automated infrastructure, and cloud platforms.
           </motion.p>
 
           <motion.div
@@ -68,7 +68,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-wrap gap-2"
           >
-            {['Python', 'FastAPI', 'React', 'Debian', 'PostgreSQL', 'Docker', 'uv/uvx'].map(tag => (
+            {['Ruby', 'Python', 'FastAPI', 'React', 'PostgreSQL', 'Docker', 'uv/uvx'].map(tag => (
               <span
                 key={tag}
                 className="mono text-[10px] text-[hsl(142,72%,50%)] bg-[hsl(0,0%,7%)] border border-[hsl(0,0%,13%)] rounded px-2 py-1"
@@ -116,7 +116,7 @@ export default function Hero() {
               <br />
               <span style={{ color: '#22d472' }}>focus</span>
               <span className="text-white">=</span>
-              <span style={{ color: '#22d472' }}>"Infra &amp; Full-Stack"</span>{' '}
+              <span style={{ color: '#22d472' }}>"Full-Stack &amp; Infra"</span>{' '}
               <br />
               <span style={{ color: '#22d472' }}>available</span>
               <span className="text-white">=</span>
