@@ -98,7 +98,6 @@ export default function Hero() {
               <span style={{ color: '#22d472' }}>stack</span>={[
                 <span key="py" style={{ color: '#22d472' }}>"Python"</span>,
                 <span key="react" style={{ color: '#22d472' }}>"React"</span>,
-                <span key="debian" style={{ color: '#22d472' }}>"Debian"</span>,
                 <span key="pg" style={{ color: '#22d472' }}>"PostgreSQL"</span>,
               ]}
               <br />
