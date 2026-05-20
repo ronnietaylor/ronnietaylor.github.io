@@ -23,22 +23,14 @@ export default function Hero() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-extrabold tracking-tight leading-[0.92] text-transparent bg-gradient-to-r from-white to-[hsl(0,0%,70%)] bg-clip-text"
-            style={{ fontSize: 'clamp(40px, 6.5vw, 72px)' }}
+            style={{ fontSize: 'clamp(40px, 6.5vw, 66px)' }}
           >
-            Building apps
+            Building intelligent experiences
             <br />
-            & infrastructure that actually scale.
+            that scale.
           </motion.h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-sm leading-relaxed max-w-[440px] text-[hsl(0,0%,42%)]"
-          >
-              AI-first developer helping clients cut weeks of manual work down to a click. Specializing in AI systems, automated infrastructure, and cloud platforms.
-          </motion.p>
+
 
           <motion.div
             initial={{ opacity: 0, y: 16 }}
