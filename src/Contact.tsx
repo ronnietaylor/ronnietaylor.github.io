@@ -41,13 +41,13 @@ export default function Contact() {
           className="flex flex-wrap justify-center gap-3 pt-4"
         >
           <a
-            href="mailto:hello@ronnietaylor.com"
+            href="mailto:letschat@ronnietaylor.com"
           className="mono text-xs font-semibold text-black bg-[hsl(142,72%,50%)] hover:bg-[hsl(142,76%,38%)] rounded px-5 py-2.5 transition-colors"
         >
           Start a conversation &rarr;
         </a>
         <a
-          href="mailto:hello@ronnietaylor.com"
+          href="mailto:letschat@ronnietaylor.com"
             className="mono text-xs text-[hsl(0,0%,42%)] hover:text-[hsl(142,72%,50%)] transition-colors inline-block"
           >
             Or email me
