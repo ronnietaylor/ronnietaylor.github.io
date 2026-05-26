@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
 import Hero from './Hero'
+import About from './About'
 import Footer from './Footer'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="bg-[hsl(0,0%,4%)] text-white">
       <Navbar />
       <Hero />
+      <About />
       <Footer />
     </div>
   )

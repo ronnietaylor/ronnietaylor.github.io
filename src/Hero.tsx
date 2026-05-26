@@ -60,7 +60,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-wrap gap-2"
           >
-            {['Ruby', 'Python', 'FastAPI', 'React', 'PostgreSQL', 'Docker', 'uv/uvx'].map(tag => (
+            {['Python','Ruby','FastAPI', 'React', 'SQL', 'Containers', 'Systems'].map(tag => (
               <span
                 key={tag}
                 className="mono text-[10px] text-[hsl(142,72%,50%)] bg-[hsl(0,0%,7%)] border border-[hsl(0,0%,13%)] rounded px-2 py-1"
@@ -96,18 +96,15 @@ export default function Hero() {
                 <span className="text-white">Developer</span>:{' '}
               </span>
               <span style={{ color: '#22d472' }}>stack</span>={[
-                <span key="py" style={{ color: '#22d472' }}>"Python"</span>,
-                <span key="react" style={{ color: '#22d472' }}>"React"</span>,
-                <span key="pg" style={{ color: '#22d472' }}>"PostgreSQL"</span>,
+                <span key="py" style={{ color: '#22d472' }}>"Python",</span>,
+                <span key="py" style={{ color: '#22d472' }}>"Ruby",</span>,
+                <span key="react" style={{ color: '#22d472' }}>"JavaScript",</span>,
+                <span key="pg" style={{ color: '#22d472' }}>"SQL"</span>,
               ]}
-              <br />
-              <span style={{ color: '#22d472' }}>os</span>
-              <span className="text-white">=</span>
-              <span style={{ color: '#22d472' }}>"Linux"</span>
               <br />
               <span style={{ color: '#22d472' }}>focus</span>
               <span className="text-white">=</span>
-              <span style={{ color: '#22d472' }}>"Full-Stack &amp; Infra"</span>{' '}
+              <span style={{ color: '#22d472' }}>"Full-Stack"</span>{' '}
               <br />
               <span style={{ color: '#22d472' }}>available</span>
               <span className="text-white">=</span>

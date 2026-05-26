@@ -31,7 +31,7 @@ const categories = [
       { name: 'React', icon: <Monitor className="w-5 h-5" /> },
       { name: 'TypeScript', icon: <Database className="w-5 h-5" /> },
       { name: 'Tailwind', icon: <Server className="w-5 h-5" /> },
-      { name: 'PostgreSQL', icon: <Database className="w-5 h-5" /> },
+      { name: 'SQL', icon: <Database className="w-5 h-5" /> },
     ],
   },
   {

@@ -1,6 +1,7 @@
 import { motion, useInView } from 'motion/react'
 import { useRef } from 'react'
 import { Cpu, Zap, MemoryStick } from 'lucide-react'
+import ronnieHeadshot from './assets/ronnie-headshot-no-glasses_small.jpeg'
 
 export default function About() {
   const ref = useRef(null)
@@ -22,29 +23,15 @@ export default function About() {
 
           <div className="space-y-4 text-sm leading-relaxed text-[hsl(0,0%,42%)]">
             <p>
-              I'm a Linux systems & full-stack developer who treats infrastructure as first-class software. 
-              My workstation runs a modern Linux distribution as the primary development environment — from the 
-              kernel level up through Python toolchains, all hardened and optimized for sustained high-throughput workloads.
-            </p>
-            <p>
-              I build persistent server environments, automation pipelines, and real-time dashboards that 
-              run on my Ryzen 9 9950X33D workstation with an RTX 5090 and 64GB DDR5 — optimized for 
-              parallel workloads, GPU-accelerated compute, and zero-config deployments.
-            </p>
-            <p>
-              Whether it's systemd service orchestration, uv/uvx dependency management, or building 
-              React + FastAPI applications with live WebSocket data, I focus on performance, 
-              reliability, and developer ergonomics. Remote-first, always available.
+              I am a full-stack software engineer with deep experience building and maintaining production software across the front-end, backend services, payment platforms, cloud infrastructure, and developer tooling. Throughout my career, I have worked directly with clients and stakeholders to translate their needs into reality. Comfortable leading teams, managing technical relationships, or working as an individual contributor. Currently deepening hands-on Python, React, and AI tooling skills.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-2">
             {[
-              'Linux',
-              'Ryzen 9 9950X3D',
-              'RTX 5090',
-              '64GB DDR5',
-              '1600W Titan PSU',
+              'Web Apps',
+              'Software Engineering',
+              'Systems',
               'Remote-friendly',
             ].map(chip => (
               <span
@@ -64,15 +51,14 @@ export default function About() {
           transition={{ duration: 0.5, delay: 0.15 }}
           className="lg:w-[380px] flex-shrink-0"
         >
-          <div className="aspect-[4/5] bg-[hsl(0,0%,10%)] border border-[hsl(0,0%,13%)] rounded-xl flex flex-col items-center justify-center gap-3 text-[hsl(0,0%,30%)] sticky top-24">
+          <div className="aspect-[4/5] bg-[hsl(0,0%,10%)] border border-[hsl(0,0%,13%)] rounded-xl flex items-center justify-center text-[hsl(0,0%,30%)] sticky top-24 overflow-hidden">
             <motion.img
-              src="https://api.dicebear.com/9.x/notionists/svg?seed=Ronnie&backgroundColor=1a1a1a&textColor=22d472"
+              src={ronnieHeadshot}
               alt="Ronnie"
-              className="w-24 h-24 rounded-full"
+              className="w-[95%] aspect-square object-cover rounded-full object-center object-[center_top]"
               animate={{ y: [0, -6, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
             />
-            <span className="mono text-[10px] text-[hsl(0,0%,42%)]">portable photo placeholder</span>
           </div>
         </motion.div>
       </div>
