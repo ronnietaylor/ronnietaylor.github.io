@@ -60,7 +60,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-wrap gap-2"
           >
-            {['Python','Ruby','FastAPI', 'React', 'SQL', 'Containers', 'Systems'].map(tag => (
+            {['Python', 'FastAPI', 'Ruby', 'React', 'SQL',  'Containers', 'Systems'].map(tag => (
               <span
                 key={tag}
                 className="mono text-[10px] text-[hsl(142,72%,50%)] bg-[hsl(0,0%,7%)] border border-[hsl(0,0%,13%)] rounded px-2 py-1"
