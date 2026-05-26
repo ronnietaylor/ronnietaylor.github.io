@@ -11,13 +11,13 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-4">
-            <a href="https://github.com/ronnietaylor" className="text-[hsl(0,0%,42%)] hover:text-[hsl(142,72%,50%)] transition-colors" target="_blank" rel="noopener noreferrer">
-              <Github className="w-4 h-4" />
-              <span className="mono text-[10px] ml-1">GitHub</span>
+            <a href="https://github.com/ronnietaylor" className="flex items-center gap-2 mono text-[10px] text-[hsl(0,0%,42%)] hover:text-[hsl(142,72%,50%)] transition-colors" target="_blank" rel="noopener noreferrer">
+              <Github className="w-3.5 h-3.5" />
+              <span>GitHub</span>
             </a>
-            <a href="https://www.linkedin.com/in/ronnie-taylor-20b3236/" className="text-[hsl(0,0%,42%)] hover:text-[hsl(142,72%,50%)] transition-colors" target="_blank" rel="noopener noreferrer">
-              <Linkedin className="w-4 h-4" />
-              <span className="mono text-[10px] ml-1">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/ronnie-taylor-20b3236/" className="flex items-center gap-2 mono text-[10px] text-[hsl(0,0%,42%)] hover:text-[hsl(142,72%,50%)] transition-colors" target="_blank" rel="noopener noreferrer">
+              <Linkedin className="w-3.5 h-3.5" />
+              <span>LinkedIn</span>
             </a>
           </div>
         </div>
