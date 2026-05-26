@@ -23,7 +23,7 @@ export default function About() {
 
           <div className="space-y-4 text-sm leading-relaxed text-[hsl(0,0%,42%)]">
             <p>
-              I am a full-stack software engineer with deep experience building and maintaining production software across the front-end, backend services, payment platforms, cloud infrastructure, and developer tooling. Throughout my career, I have worked directly with clients and stakeholders to translate their needs into reality. Comfortable leading teams, managing technical relationships, or working as an individual contributor. Currently deepening hands-on Python, React, and AI tooling skills.
+              I am a full-stack software engineer with deep experience building and maintaining production software across front end, back end services, payment platforms, cloud infrastructure, and developer tooling. Throughout my career, I have worked directly with clients and stakeholders to translate their needs into reality. Comfortable leading teams, managing technical relationships, or working as an individual contributor. Currently deepening hands-on Python, React, and AI tooling skills.
             </p>
           </div>
 
