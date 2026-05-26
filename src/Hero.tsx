@@ -46,7 +46,7 @@ export default function Hero() {
               View projects &rarr;
             </a>
             <a
-              href="/ronnie-taylor-resume-2026-v2.pdf"
+              href="/ronnie-taylor-resume-2026.pdf"
               className="mono text-xs font-semibold text-[hsl(0,0%,95%)] border border-[hsl(0,0%,13%)] hover:border-[hsl(0,0%,30%)] rounded px-4 py-2 transition-colors duration-180"
             >
               Download CV
