@@ -36,7 +36,7 @@ export default function Navbar() {
             href="mailto:letschat@ronnietaylor.com"
             className="mono text-xs font-semibold text-black bg-[hsl(142,72%,50%)] hover:bg-[hsl(142,76%,38%)] rounded px-3 py-1.5 transition-colors duration-180"
           >
-            Get in touch &rarr;
+            Let's chat &rarr;
           </a>
         </div>
 
@@ -65,7 +65,7 @@ export default function Navbar() {
               className="mono text-xs font-semibold text-black bg-[hsl(142,72%,50%)] hover:bg-[hsl(142,76%,38%)] rounded px-3 py-1.5 transition-colors duration-180 text-center mt-1"
               onClick={() => setOpen(false)}
             >
-              Get in touch &rarr;
+            Let's chat &rarr;
             </a>
           </div>
         </div>
